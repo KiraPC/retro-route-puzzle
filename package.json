@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "test": "tap tests/*.test.js"
+  },
+  "bin": {
+    "game": "bin/game"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.1.0",
+    "arg": "^5.0.0",
+    "fluent-json-schema": "^2.0.4",
+    "inquirer": "^8.0.0",
+    "tap": "^15.0.5"
+  }
+}
